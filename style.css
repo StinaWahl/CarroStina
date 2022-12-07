@@ -53,6 +53,11 @@ img {
   padding-left: 30px;
 }
 
+/* main character Content */
+.main-character .content {
+  padding-left: 30px;
+}
+
 /* Paragraph only in movie bacground */
 .movie-background .container .content p {
   color: #ffffff;
