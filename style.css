@@ -7,7 +7,8 @@ html, body {
 /* Whole page */
 body {
   margin-top: -22px;
-  background-color: #ffffff;
+  background-color: #550000;
+  margin-bottom: 130px;
 
   /* Center all on page */
   display: flex;
@@ -16,8 +17,11 @@ body {
 }
 
 /* All images */
-img {
-  object-fit: contain;
+.rate {
+  height: 50px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 /* Movie background */
@@ -37,10 +41,12 @@ img {
   background-color:rgb(173, 85, 3);
   padding: 30px;
   position: absolute;
-  bottom: 0px;
-  left: 100px;
-  right: 100px;
+  bottom: -86px;
+    left: 360px;
+    right: 100px;
   display: flex;
+  width: 1000px;
+  border-radius: 8px;
 }
 
 /* Cover */
@@ -56,25 +62,54 @@ img {
 /* main character Content */
 .main-character .content {
   padding-left: 30px;
+  color: white;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* main character Content */
+.timonochpumba2 .content {
+  padding-left: 30px;
+  color: white;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Diractor Content */
+.director .content {
+  padding-right: 30px;
 }
 
 /* Paragraph only in movie bacground */
 .movie-background .container .content p {
   color: #ffffff;
+  font-size: large;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Paragraph only in movie bacground */
+.footer {
+  color: #ffffff;
+  font-size: large;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 1420px;
 }
 
 /* Main character */
 .main-character {
   display: flex;
   width: 1040px;
-  height: 1040px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 /* Director */
-.director {
+.character {
   display: flex;
-  flex-direction: row-reverse;
-  width: 1040px;
+  width: 500px;
+  height: 500px;
 }
 
 /* Rating */
@@ -103,9 +138,63 @@ img {
 /* Typography */
 h1 {
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Typography */
+h2 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+}
+
+/* Typography */
+h3 {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
 }
 
 .year {
-  color: rgb(252, 232, 2);
+  color: white;
 }
+
+.test{
+  overflow: hidden;
+  height: 1000px;
+  width: 1000px;
+}
+
+.simba{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+.timonochpumba{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.timonochpumba2 {
+  display: flex;
+  width: 1040px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.image4 {
+  height: 20 px;
+}
+
+.footer {
+    background-color: rgb(173, 85, 3);
+    width: 1690px;
+    height: 80px;
+    padding-bottom: -10px;
+  }
