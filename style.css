@@ -196,5 +196,7 @@ h3 {
     background-color: rgb(173, 85, 3);
     width: 1690px;
     height: 80px;
-    padding-bottom: -10px;
+    padding-bottom: 10px;
+    bottom: -130px;
+    position: relative; 
   }
